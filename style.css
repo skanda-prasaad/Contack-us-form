@@ -124,3 +124,15 @@ button:active {
     width: 100%; 
     background: #ff7ea2; 
 }
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+    }
+}
